@@ -19,7 +19,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/QuentinDesse/Domotique">
-    <img src="Images/house_38533.png" width="80" height="80">
+    <img src="exemple.png" width="80" height="80">
   </a>
 
   <h3 align="center">CAR GAMES PROJECT</h3>
@@ -58,10 +58,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The objective of the project is to design a windows application and an Android home automation management application.
-Home automation is a technology that makes it possible to better manage household electrical devices on a daily basis by increasing comfort, ease of use and security while saving energy.
-Thus the lighting control, the heating management, the shutter control, the control of access points like gates, 
-are accessible and configurable by the user at any time using a connected computer to the network, a tablet or a smartphone.
+The objective of this mini-project is to design a 2D car game
+The road scrolls vertically, the car is driven using only two keys, right and left, it can move across the width of the window but not beyond.
+The object of the game is to make the longest possible journey without any problems knowing that the road is strewn with holes that the car must avoid.
+A distance counter is incremented according to the speed of the road, this distance corresponds to the player's score.
+Each time the car passes over a hole, on the side of the road or if the car drives off the road, damage is inflicted on the car.
+A "damage" gauge allows you to know the state of the car, if it reaches level 0 the game ends and the score corresponds to the number of "kilometers" performed.
+The player can "repair" his car using the keys of mechanics on the road to increase his damage gauge.
+Each pass on a key is accompanied by an acceleration of the car and therefore an additional risk of encountering a hole or making a departure from the road.
+The game will be accompanied by background music and sound effects when the car is driven over a hole, is driven on the side of the road or in the grass and when it retrieves a key.
+The application should run on all Windows environments.
 
 
 ------------------------------------------------
@@ -93,14 +99,20 @@ are accessible and configurable by the user at any time using a connected comput
             <td align="center"></td>
             <td align="center"></td>
         </tr>
+      <tr>
+            <td align="center">Sanchez Mathieu</td>
+            <td align="center"></td>
+            <td align="center"></td>
+            <td align="center"></td>
+        </tr>
     </tbody>
 </table>
 
 ### Built With
 
 * [C++](https://fr.wikipedia.org/wiki/C%2B%2B)
-* [Java](https://fr.wikipedia.org/wiki/Java_(langage))
-* [C++ Builder](https://fr.wikipedia.org/wiki/C%2B%2BBuilder)
+* [Visual Studio](https://visualstudio.microsoft.com/fr/)
+* [SFML Bibliothèque](https://www.sfml-dev.org/index-fr.php)
 
 
 
@@ -108,7 +120,8 @@ are accessible and configurable by the user at any time using a connected comput
 ## Getting Started
 ### Prerequisites
 
-* [C++ Builder]
+* [Visual Studio] Or other IDE with C++ compilator
+Exemple : *[Webstorm](https://www.jetbrains.com/fr-fr/webstorm/)
 This is an example of how to list things you need to use the software and how to install them.
 * npm
 ```sh
