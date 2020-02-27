@@ -51,7 +51,6 @@
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Contact](#contact)
-* [Useful link and ressources](#Useful-link-and-ressources)
 
 
 
@@ -156,7 +155,7 @@ npm install
 1. Create a [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) of this project
 2. Clone the project:
 ```sh
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/DomotiqueBuilder
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/voitureProject
 ```
 3. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 4. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
@@ -167,17 +166,6 @@ git clone https://github.com/<YOUR_GITHUB_USERNAME>/DomotiqueBuilder
 ## Contact
 * Student n°1 : [https://github.com/QuentinDesse](https://github.com/QuentinDesse)
 * Student n°2 : [https://github.com/Aredi](https://github.com/Aredi)
-
-<!-- Useful link and ressources -->
-## Useful link and ressources
-
-* [DLL of the card K8055.](https://seththefly.fr/download/k8055-dll/)
-* [serveur socket](https://fr.wikipedia.org/wiki/Socket)
-* [c++ Builder](https://fr.wikipedia.org/wiki/C%2B%2BBuilder)
-* [Android studio](https://developer.android.com/studio)
-
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
